@@ -1,0 +1,41 @@
+.app.light {
+  background-color: #f0f0f0;
+  color: #333;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+.app.dark {
+  background-color: #333;
+  color: #f0f0f0;
+  min-height: 100vh;
+  transition: all 0.3s ease;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.app {
+  border: 2px solid red;
+}
